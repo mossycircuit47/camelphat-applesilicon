@@ -1,0 +1,155 @@
+----------------------------------------------------------------------------------------------
+Bitmaps - complete list of bitmaps
+----------------------------------------------------------------------------------------------
+BITMAPS
+Background
+OnButton
+OnButtonGold
+ButtonRandom
+Knob
+KnobSmall
+VSlider
+LfoBkg
+LfoSelect1
+LfoSelect2
+SelectorFilter
+FontSelector
+FontDisplay
+XYScreen
+SelectorScreenX
+SelectorScreenY
+SelectorLfo
+LevelMeterOn
+LevelMeterOff
+VSliderBar
+XYCursor
+PhatButton
+FontVersion
+SelectorPreset
+
+----------------------------------------------------------------------------------------------
+Fonts - bitmap name, num chars, char list, char widths
+----------------------------------------------------------------------------------------------
+FONTS
+FontSelector 
+75
+ 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz%'()*+,-./:?
+4 6 5 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 5 6 6 5 7 7 6 5 6 6 6 5 6 7 7 7 5 5 6 6 6 6 6 4 6 6 3 4 6 3 7 6 6 6 6 4 6 4 6 7 7 7 6 6 7 3 4 4 7 5 3 5 3 5 3 5
+FontDisplay 
+75
+ 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz%'()*+,-./:?
+8 11 9 10 10 10 10 11 10 10 10 10 10 10 10 9 9 10 11 9 9 10 9 11 10 11 10 10 10 10 10 10 10 10 10 10 10 10 10 9 10 10 9 10 9 8 8 10 9 12 10 10 10 10 10 10 10 10 10 10 10 11 10 12 5 10 10 10 12 5 7 6 11 6 9
+FontVersion
+75
+0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz%'()*+,-./:? 
+6 4 6 6 5 6 6 6 6 6 8 6 7 7 6 6 7 7 3 5 7 6 9 7 8 7 8 6 6 5 7 6 9 7 6 7 6 6 6 6 6 4 6 6 3 3 6 3 9 6 6 6 6 4 6 4 6 6 9 6 6 6 9 2 3 3 5 7 3 5 3 5 3 6 4
+
+----------------------------------------------------------------------------------------------
+Parameters - complete list of other required params eg. colours
+----------------------------------------------------------------------------------------------
+PARAMETERS
+FontSelectorWidth 8
+SelectorButtonWidth 24
+SelectorButtonWidthSmall 15
+XYLineR 172
+XYLineG 184
+XYLineB 255
+XYLineA 64
+XYBkgR 38
+XYBkgG 23
+XYBkgB 42
+LfoButtonSpace 28
+
+----------------------------------------------------------------------------------------------
+Pages - 
+ControlName	ControlType	Image		Page	x1	y1	x2	y2
+----------------------------------------------------------------------------------------------
+PAGES
+LfoPg1		Page		LfoBkg		Main	186	254	384	406
+LfoPg2		Page		LfoBkg		Main	186	254	384	406
+
+
+----------------------------------------------------------------------------------------------
+Controls - 
+ControlName	ControlType	Image		Page	x1	y1	x2	y2	
+----------------------------------------------------------------------------------------------
+CONTROLS
+BpFilterOn	OnButton	OnButton	Main	50	95
+BpFilterLow	VSlider		VSlider		Main	53	120	60	295	
+BpFilterHigh	VSlider		VSlider		Main	143	120	150	295
+BpFilterQLow	Knob		KnobSmall	Main	53	328
+BpFilterQHigh	Knob		KnobSmall	Main	142	328
+BpFilterBRMix	Knob		Knob		Main	96	359
+BpFilterLink	OnButton	OnButton	Main	96	308
+
+DistOn		OnButton	OnButton	Main	427	95
+DistBitCrusher	Knob		Knob		Main	440	132
+DistMech	Knob		Knob		Main	514	132
+DistTube	Knob		Knob		Main	440	188
+DistXcita	Knob		Knob		Main	514	188
+
+MmFilterOn	OnButton	OnButton	Main	420	238
+MmFilterMix	Knob		Knob		Main	525	358
+MmFilterType	Selector	SelectorFilter	Main	478	264
+MmFilterAttack	Knob		KnobSmall	Main	421	308
+MmFilterDecay	Knob		KnobSmall	Main	473	308
+MmFilterEnv	Knob		Knob		Main	525	304
+MmFilterCutoff	Knob		Knob		Main	419	363
+MmFilterRes	Knob		Knob		Main	472	361
+
+FlangerOn	OnButton	OnButton	Main	38	408
+FlangerAmount	Knob		Knob		Main	64	445
+FlangerRate	Knob		Knob		Main	120	451
+
+MagicEQOn	OnButton	OnButton	Main	161	412
+MagicEQAmount	Knob		Knob		Main	191	455
+MagicEQTune	Knob		Knob		Main	252	457
+MagicEQMode	OnButton	PhatButton	Main	272	423
+
+CompressOn	OnButton	OnButton	Main	409	412
+CompressAmount	Knob		Knob		Main	317	457
+CompressRelease	Knob		Knob		Main	377	456
+CompressMode	OnButton	PhatButton	Main	300	423
+
+MasterOn	OnButton	OnButton	Main	531	408
+MasterMix	Knob		Knob		Main	504	444
+MasterVolume	Knob		Knob		Main	448	451
+	
+Lfo1On		OnButton	OnButtonGold	LfoPg1	203	268
+Lfo1Target	Selector	SelectorLfo	LfoPg1	285	294
+Lfo1Shape	Selector	SelectorLfo	LfoPg1	285	330
+Lfo1Depth	Knob		Knob		LfoPg1	234	375
+Lfo1Rate	Knob		Knob		LfoPg1	336	375
+Lfo1Sync	OnButton	OnButtonGold	LfoPg1	286	375	
+
+Lfo2On		OnButton	OnButtonGold	LfoPg2	203	268
+Lfo2Target	Selector	SelectorLfo	LfoPg2	285	294
+Lfo2Shape	Selector	SelectorLfo	LfoPg2	285	330
+Lfo2Depth	Knob		Knob		LfoPg2	234	375
+Lfo2Rate	Knob		Knob		LfoPg2	336	375
+Lfo2Sync	OnButton	OnButtonGold	LfoPg2	286	375
+
+MorphXParam	Selector	SelectorScreenX	Main	252	208	
+MorphYParam	Selector	SelectorScreenY	Main	252	227
+MorphSquare	MorphSquare	XYScreen	Main	252	144
+
+LfoSelect	RadioButton	LfoSelect1	LfoPg1	327	256	382	278
+
+Randomize	KickButton	ButtonRandom	Main	285	34
+
+ParamDisplay	TextDisplay	FontSelector	Main	201	70	360	86
+
+BpFilterBar	VSliderBar	VSliderBar	Main	96	198
+
+LevelMeterL	VuMeter		LevelMeterOn	Main	316	99	334	224
+LevelMeterR	VuMeter		LevelMeterOn	Main	347	99	365	224
+
+VersionDisplay	VersionDisplay	FontSelector	Main	57	42	157	53
+
+GlobalMenu	PresetMenu	Knob		Main	201	70	360	86
+
+UpDownPreset	UpDownPreset	SelectorPreset	Main	365	75
+
+InfoLink	WebLink		Knob		Main	415	8	533	50
+
+----------------------------------------------------------------------------------------------

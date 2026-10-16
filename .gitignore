@@ -1,0 +1,13 @@
+/build*/
+/dist/
+/analysis/
+/tests/
+/tools/
+/INSTALL.txt
+/.agents/
+/.codex/
+/.aws/
+.DS_Store
+__pycache__/
+*.pyc
+*.dSYM/
